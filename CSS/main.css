@@ -12,26 +12,44 @@ body {
 }
 
 .top-nav .content {
-	width: 60%;
-	height: 4.1em;
+	width: 970px;
+	height: 70px;
 	margin: 0 auto;
-	padding: 0px 15px;
+	padding: 0px 12px;
 }
 
 /*----------Logo----------*/
 
 .logo {
-	margin: .6em 0 auto;
+	/*margin: .6em 0 auto;*/
+	height: 70px;
 }
 
 /*----------links----------*/
 
+.top-nav .links {
+	float: right;
+}
+
 .top-nav > .content li {
 	padding: 0 15px;
 	display: inline-block;
-	font-size: 1rem;
+	font-size: 1.02rem;
 	color: #838994;
-	letter-spacing: 0.03em
+	letter-spacing: 0.03em;
+}
+
+.content a:hover {
+	color: #333;
+	font-weight: 500;
+}
+
+.content a {
+	cursor: pointer;
+	text-decoration: none;
+	color: #838994;
+	transition: color 0.2s ease;
+	transition: font-weight 0.2s ease;
 }
 
 .links {
@@ -40,7 +58,7 @@ body {
 	margin-top: 1.475rem;
 }
 
-.top-nav .links > .active {
+.top-nav .links > .active a {
 	color: #4c5058;
 	font-weight: 500;
 }
