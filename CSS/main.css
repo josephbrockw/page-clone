@@ -1,0 +1,46 @@
+
+body {
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+/*------------------------------------Navigation-----------------------------------*/
+
+.top-nav {
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+}
+
+.top-nav .content {
+	width: 60%;
+	height: 4.1em;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+/*----------Logo----------*/
+
+.logo {
+	margin: .6em 0 auto;
+}
+
+/*----------links----------*/
+
+.top-nav > .content li {
+	padding: 0 15px;
+	display: inline-block;
+	font-size: 1rem;
+	color: #838994;
+	letter-spacing: 0.03em
+}
+
+.links {
+	float: right;
+	font-size: 1.04rem;
+	margin-top: 1.475rem;
+}
+
+.top-nav .links > .active {
+	color: #4c5058;
+	font-weight: 500;
+}
