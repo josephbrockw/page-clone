@@ -62,3 +62,58 @@ body {
 	color: #4c5058;
 	font-weight: 500;
 }
+
+
+/*------------------------------------Introduction-----------------------------------*/
+
+section {
+	display: block;
+}
+
+.intro {
+	background-image: url("../images/first-background.jpg");
+	background-size: cover;
+	height: 90%;
+}
+
+.intro h1, p {
+	color: white;
+	text-align: center;
+}
+
+.introInfo {
+	vertical-align: center;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+.intro p {
+	font-size: 1.5em;
+}
+
+.learnButton {
+	background-color: #f15a29;
+	width: 12%;
+	height: 7%;
+	border-radius: 10px; 
+	margin-left: 44%;
+	margin-right: auto;
+}
+
+.learnButton p {
+	font-size: 1.2em;
+}
+
+.intro a {
+	text-decoration: none;
+}
+
+
+.dummy {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+}
