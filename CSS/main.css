@@ -199,3 +199,37 @@ ul.flexbox {
 	width: 60%;
 	margin: 0 20%;
 }
+
+
+/*------------------------------------Footer-----------------------------------*/
+
+.footer {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom:10rem;
+}
+
+hr {
+	color: #838994;
+}
+
+#join {
+	font-size: 1.2em;
+}
+
+#copyright {
+	color: #838994;
+}
+
+.social {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	margin: 1em .5em;
+	border-radius: 100px;
+	border: 1px solid #838994;
+}
+
+.social:hover {
+	cursor: pointer;
+}
