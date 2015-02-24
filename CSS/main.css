@@ -203,7 +203,7 @@ ul.flexbox {
 
 /*------------------------------------Footer-----------------------------------*/
 
-.footer {
+/*.social {
 	text-align: center;
 	margin-top: 1em;
 	margin-bottom:10rem;
@@ -211,25 +211,42 @@ ul.flexbox {
 
 hr {
 	color: #838994;
-}
+}*/
 
 #join {
-	font-size: 1.2em;
+	font-size: 100%;
 }
 
 #copyright {
 	color: #838994;
 }
 
-.social {
+/*.social {
 	display: inline-block;
 	width: 2em;
 	height: 2em;
 	margin: 1em .5em;
 	border-radius: 100px;
 	border: 1px solid #838994;
+}*/
+
+.socialicons li:hover {
+	cursor: pointer;
 }
 
-.social:hover {
-	cursor: pointer;
+i {
+	width: 2em;
+}
+
+.socialicons li {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	margin: 1em .5em;
+	border-radius: 100px;
+}
+
+.social .content {
+	margin-top: 3em;
+	margin-bottom: 10em;
 }
